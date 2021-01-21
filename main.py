@@ -1,7 +1,7 @@
 """
 Chatbot
-Author: 
-Period/Core: 
+Author: Cara Tiller 
+Period/Core: 5 
 
 """
 
@@ -25,6 +25,9 @@ def run_tests():
 def main():
   """This function contains all code for the chatbot."""
   print("Hello!")
+  n=str(input("What is your first name? "))
+  w=str(input("What is your last name? "))
+  print("Nice to meet you "+ n +" "+ w + "!" )
   c = str(input("What country do you live in? "))
   if (c=="America" or c=="america"): 
       print("I live there too! ")
@@ -37,8 +40,12 @@ def main():
   elif(x=="no" or x=="No"):
       print("Awh I'm sorry.")
 
-  n=str(input("Sorry I forgot to ask your name, whats your name? "))
-  print("Nice to meet you "+ n + "!" )
+
+  m=str(input("If you could live anywhere else where would you live? "))
+  f=random.randit(1,3):
+  if (m==)
+
+
 
 
 
