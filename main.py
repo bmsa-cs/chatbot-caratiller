@@ -25,6 +25,7 @@ def run_tests():
 def main():
   """This function contains all code for the chatbot."""
   print("Hello!")
+  
   n=str(input("What is your first name? "))
   w=str(input("What is your last name? "))
   print("Nice to meet you "+ n +" "+ w + "!" )
@@ -42,9 +43,16 @@ def main():
 
 
   m=str(input("If you could live anywhere else where would you live? "))
-  f=random.randit(1,3):
-  if (m==)
+  u=random.randint(1,3)
 
+  if u== 3: 
+    print("Thats an intresting place! ")
+
+  elif u== 2:
+    print("Thats such a nice place!")
+
+  elif u== 3:
+    print("I hope that works out for you! ")
 
 
 
