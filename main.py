@@ -25,6 +25,21 @@ def run_tests():
 def main():
   """This function contains all code for the chatbot."""
   print("Hello!")
+  c = str(input("What country do you live in? "))
+  if (c=="America" or c=="america"): 
+      print("I live there too! ")
+  else:
+      print("I have never been there . ")
+
+  x=str(input("Is it nice where you live ?"))
+  if (x=="yes" or x=="Yes"):
+      print("Thats good to hear!")
+  elif(x=="no" or x=="No"):
+      print("Awh I'm sorry.")
+
+  n=str(input("Sorry I forgot to ask your name, whats your name? "))
+  print("Nice to meet you "+ n + "!" )
+
 
 
 if __name__ == "__main__":
@@ -32,3 +47,5 @@ if __name__ == "__main__":
   t = input("Run pytest? (y/n)").lower()
   if t == 'y':
     run_tests()
+
+
