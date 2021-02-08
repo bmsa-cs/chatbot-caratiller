@@ -33,13 +33,15 @@ def main():
   if (c=="America" or c=="america"): 
       print("I live there too! ")
   else:
-      print("I have never been there . ")
+      print("I have never been there. ")
 
   x=str(input("Is it nice where you live ?"))
   if (x=="yes" or x=="Yes"):
       print("Thats good to hear!")
   elif(x=="no" or x=="No"):
       print("Awh I'm sorry.")
+  else:
+    print("I don't understand?")
 
 
   m=str(input("If you could live anywhere else where would you live? "))
